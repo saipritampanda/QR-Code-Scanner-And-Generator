@@ -1,1 +1,1 @@
-# QR-Code-Scanner-And-Generator-Pvt.Ads
+# QR-Code-Scanner-And-Generator
