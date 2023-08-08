@@ -36,7 +36,7 @@ public class SettingsActivity extends AppCompatActivity {
     TextView donate;
     TextView clearCache;
     TextView exit;
-    TextView version;
+    TextView versionTextBox;
 
     private AdView mAdViewTop;
 
@@ -51,8 +51,11 @@ public class SettingsActivity extends AppCompatActivity {
         //donate = findViewById(R.id.donate);
         clearCache = findViewById(R.id.clearCache);
         exit = findViewById(R.id.exit);
-        version = findViewById(R.id.version);
+        versionTextBox = findViewById(R.id.versionTextBox);
 
+
+        String versionName = BuildConfig.VERSION_NAME;
+        versionTextBox.setText("Version: " + versionName);
 
         about.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -96,10 +99,11 @@ public class SettingsActivity extends AppCompatActivity {
                 finishAffinity();
             }
         });
-        version.setOnClickListener(new View.OnClickListener() {
+
+        versionTextBox.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(SettingsActivity.this, version.getText(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(SettingsActivity.this, "Current Version: " + versionName, Toast.LENGTH_SHORT).show();
             }
         });
 

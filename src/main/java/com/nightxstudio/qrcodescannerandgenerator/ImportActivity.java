@@ -53,7 +53,6 @@ public class ImportActivity extends AppCompatActivity {
 
         import_image = findViewById(R.id.import_image);
 
-
         import_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

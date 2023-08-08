@@ -174,7 +174,7 @@ public class ScanActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        Intent intent = new Intent(ScanActivity.this, MainActivity.class);
+        Intent intent = new Intent(ScanActivity.this, ScanMenuActivity.class);
         startActivity(intent);
         warning.setVisibility(View.GONE);
     }

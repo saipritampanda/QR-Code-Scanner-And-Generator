@@ -147,7 +147,7 @@ public class ResultActivity extends AppCompatActivity {
         retake.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ResultActivity.this, ScanActivity.class);
+                Intent intent = new Intent(ResultActivity.this, ScanMenuActivity.class);
                 startActivity(intent);
             }
         });

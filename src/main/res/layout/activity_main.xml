@@ -110,18 +110,16 @@
                 app:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
                 -->
 
-
             <com.google.android.ads.nativetemplates.TemplateView
                 android:id="@+id/my_template"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="68dp"
                 android:layout_marginHorizontal="15dp"
                 app:gnt_template_type="@layout/gnt_small_template_view" />
 
         </LinearLayout>
 
     </ScrollView>
-
 
 </LinearLayout>

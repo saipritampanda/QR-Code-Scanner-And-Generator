@@ -160,7 +160,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#64096CED"
-                android:layout_marginVertical="3dp"/>
+                android:layout_marginVertical="0dp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -193,7 +193,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#64096CED"
-                android:layout_marginVertical="3dp"/>
+                android:layout_marginVertical="0dp"/>
 
             <!--
             <LinearLayout
@@ -286,7 +286,40 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#64096CED"
-                android:layout_marginVertical="3dp"/>
+                android:layout_marginVertical="0dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/version"
+                    android:contentDescription="@string/version" />
+
+                <TextView
+                    android:id="@+id/versionTextBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/andika"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#64096CED"
+                android:layout_marginVertical="0dp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -319,40 +352,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#64096CED"
-                android:layout_marginVertical="3dp"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:padding="3dp">
-
-                <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:layout_weight="1"
-                    android:src="@drawable/version"
-                    android:contentDescription="@string/version" />
-
-                <TextView
-                    android:id="@+id/version"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/andika"
-                    android:padding="10dp"
-                    android:text="@string/version"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="17sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#64096CED"
-                android:layout_marginVertical="3dp"/>
+                android:layout_marginVertical="0dp"/>
 
             <com.google.android.ads.nativetemplates.TemplateView
                 android:id="@+id/my_template"
