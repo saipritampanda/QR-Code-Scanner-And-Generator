@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Donate30Activity">
+
+    <ImageView
+        android:id="@+id/donationImage"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="55dp"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/donation_icon"
+        android:contentDescription="@string/donate_rs30"
+        android:visibility="visible"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/donate_30_text"
+        android:fontFamily="@font/andika"
+        android:textSize="17sp"
+        android:layout_margin="30dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="6dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:background="@drawable/result_box_background"
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/pay30"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/andika"
+        android:text="@string/pay_30"
+        android:paddingVertical="9dp"
+        android:layout_marginHorizontal="80dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:cornerRadius="6dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:adSize="BANNER"
+        android:layout_marginTop="80dp"
+        app:adUnitId="ca-app-pub-1785962158595876/7403944463"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/made_in_india_made_with_love"
+        android:fontFamily="@font/andika"
+        android:textColor="#808080"
+        android:textSize="15sp"
+        android:layout_marginVertical="20dp"
+        android:paddingBottom="8dp"
+        android:textStyle="italic"
+        android:layout_gravity="center_horizontal"
+        android:gravity="bottom"
+        />
+
+</LinearLayout>
