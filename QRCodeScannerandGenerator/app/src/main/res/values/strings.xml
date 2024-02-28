@@ -1,0 +1,125 @@
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">QR Code Scanner and Generator</string>
+
+
+    <!-- About Activity -->
+    <string name="logo">Logo</string>
+    <string name="nightxstudio_productions">© NightXStudio Productions</string>
+    <string name="since_2022">Since 2023</string>
+    <string name="about">About</string>
+    <string name="warning4">*If you face any sort of problem related to app font size, it is due to device Font settings. Kindly adjust your settings and restart the app, for a smoother experience.</string>
+    <string name="warning5">*Scroll down for more info (if required due to font size issues)</string>
+    <string name="aboutText">To scan the QR code, simply open the application and align the code. It will automatically recognize any given QR-code/Barcode. After scanning the code, copy the text/link and use it where ever you want.</string>
+    <string name="Key_features">Key features:\n • QR code and barcode all supported.\n • Flashlight supported for low-light environments.\n • Auto Focus feature available for better detection.\n • Tap for instant extreme fast focus.</string>
+
+    <string name="scroll_down_to_see_all_supported_formats">*Scroll down to see all supported formats</string>
+    <string name="supported_formats">Supported formats</string>
+    <string name="_1d_product"><b><u>1D Product</u></b></string>
+    <string name="upc_a">•UPC-A</string>
+    <string name="upc_e">•UPC-E</string>
+    <string name="ean_8">•EAN-8</string>
+    <string name="ean_13">•EAN-13</string>
+
+    <string name="_1d_industrial"><b><u>1D Industrial</u></b></string>
+    <string name="code_39">•Code 39</string>
+    <string name="code_93">•Code 93</string>
+    <string name="code_128">•Code 128</string>
+    <string name="codabar">•Codabar</string>
+    <string name="itf">•ITF</string>
+    <string name="rss_14">•RSS-14</string>
+    <string name="rss_expanded">•RSS-Expanded</string>
+
+    <string name="_2d"><b><u>2D</u></b></string>
+    <string name="qr_code">•QR Code</string>
+    <string name="barcode">•Barcode</string>
+    <string name="data_matrix">•DataMatrix</string>
+    <string name="aztec">•Aztec</string>
+    <string name="pdf_417">•PDF 417</string>
+    <string name="maxicode">•MaxiCode</string>
+
+
+    <!-- Contact Activity -->
+    <string name="contact_us_through">Contact Us Through</string>
+    <string name="production">Production</string>
+    <string name="email">Email:\n • nightxstudio15@gmail.com</string>
+    <string name="founder_sai_pritam_panda">Founder: Sai Pritam Panda</string>
+    <string name="instagram">instagram</string>
+    <string name="twitter">twitter</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="github">GitHub</string>
+
+
+    <!-- Generate Activity -->
+    <string name="your_qr_code_will_appear_here">Your QR code will appear here at top</string>
+    <string name="warning1">*Please don\'t insert any sort of emoji</string>
+    <string name="warning2">**If any new line is given in while coding the text, while decoding it may or may-not be present, depending on the decoding application!</string>
+    <string name="enter_the_text_link_for_your_qr_code">Enter the text/link for your QR Code</string>
+    <string name="generate_qr_code">Generate QR Code</string>
+    <string name="save">Save</string>
+
+    <!-- Generate Activity -->
+    <string name="import_image">Import Image</string>
+    <string name="import_image_image">Import Image image</string>
+
+    <!-- Main Activity -->
+    <string name="settings">Settings</string>
+    <string name="welcome_to_qr_code_scanner_and_generator">Welcome To QR Code Scanner and Generator</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+
+
+    <!-- Result Activity -->
+    <string name="share">Share</string>
+    <string name="copy_to_clipboard">Copy To Clipboard</string>
+
+
+    <!-- Scan Activity -->
+    <string name="warning3">Please retry scanning, again, if you are using for the first time, after opening the application.\nIn the second attempt it is resolved.\nIgnore Otherwise!\n• Tap for instant extreme-fast focus.</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="exit">Exit</string>
+    <string name="version">Version: 1.0.0</string>
+    <string name="donate">Donate</string>
+
+
+    <!-- Splash Activity -->
+    <string name="app_icon">App Icon</string>
+    <string name="the_best_qr_code_scanner_and_generator_app">The Best QR Code Scanner and Generator App</string>
+    <string name="loading">Loading...</string>
+
+    <!-- Donation Activity -->
+    <string name="buymeacoffeeFullText">\"Hello there! If you enjoy the content I create or find my assistance helpful, please consider buying me a coffee. Your support will not only help me stay fueled and motivated but also enables me to continue producing valuable and insightful information. Every cup of coffee contributes to my ongoing efforts to share knowledge and make a positive impact. Your generosity is greatly appreciated, and together, we can make a difference. \n<b>Thank you for being a part of this journey!</b>\"</string>
+    <string name="from_developer_s_desk">- From Developer\'s Desk</string>
+    <string name="your_love">Your\'s Love:</string>
+
+    <string name="donate_10_text"><b>Your small donation of  ₹10 can lead to immense help to our community.\n\nTHANK YOU!</b></string>
+    <string name="donate_30_text"><b>Your small donation of  ₹30 can lead to immense help to our community.\n\nTHANK YOU!</b></string>
+    <string name="donate_50_text"><b>Your small donation of  ₹50 can lead to immense help to our community.\n\nTHANK YOU!</b></string>
+    <string name="donate_120_text"><b>Your small donation of  ₹120 can lead to immense help to our community.\n\nTHANK YOU!</b></string>
+
+    <string name="chocolate">Chocolate</string>
+    <string name="coffee">Coffee</string>
+    <string name="burger">Burger</string>
+    <string name="meal">Meal</string>
+
+    <string name="donate_10">DONATE ₹10</string>
+    <string name="donate_30">DONATE ₹30</string>
+    <string name="donate_50">DONATE ₹50</string>
+    <string name="donate_120">DONATE ₹120</string>
+
+    <string name="donate_rs10">Donate Rs10</string>
+    <string name="donate_rs30">Donate Rs30</string>
+    <string name="donate_rs50">Donate Rs50</string>
+    <string name="donate_rs120">Donate Rs120</string>
+
+    <string name="pay_10">PAY ₹10 VIA UPI</string>
+    <string name="pay_30">PAY ₹30 VIA UPI</string>
+    <string name="pay_50">PAY ₹50 VIA UPI</string>
+    <string name="pay_120">PAY ₹120 VIA UPI</string>
+
+    <string name="made_in_india_made_with_love"><b>Made in INDIA | Made with LOVE  |  Made for ALL</b></string>
+    <string name="emoji">🇮🇳 🙏 🤍</string>
+
+
+</resources>
