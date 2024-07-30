@@ -59,9 +59,9 @@ The **QR Code Scanner and Generator** is a robust application designed for both 
 We welcome contributions from the community! To get involved:
 
 1. **Fork the repository** on GitHub.
-2. **Create a new branch** for your changes (`git checkout -b feature-branch`).
-3. **Commit your changes** with a clear message (`git commit -am 'Add new feature'`).
-4. **Push your changes** to your forked repository (`git push origin feature-branch`).
+2. **Create a new branch** for your changes.
+3. **Commit your changes** with a clear message.
+4. **Push your changes** to your forked repository.
 5. **Submit a pull request** describing your changes and improvements.
 
 ## 📜 License
@@ -73,4 +73,3 @@ This project is licensed under the MIT License. For details, see the [LICENSE](L
 - **ZXing**: For providing the QR code scanning library that powers the scanning feature.
 - **ZBar**: For additional barcode scanning support.
 - **Android Developer Community**: For ongoing support and resources that contributed to the development of this application.
-- 
